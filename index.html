@@ -65,9 +65,21 @@
             <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="whatwedo">
-            <li class="item"><img src="./IMG/box1.png" alt="комп"></li>
-            <li class="item"><img src="./IMG/box2.png" alt="моб"></li>
-            <li class="item"><img src="./IMG/img.png" alt="айпад"></li>
+            <li class="item">
+                <div class="thumb-whatwedo"><img src="./IMG/box1.png" alt="комп">
+                    <p class="photo-sign">десктопные приложения</p>
+                </div>
+            </li>
+            <li class="item">
+                <div class="thumb-whatwedo"><img src="./IMG/box2.png" alt="моб">
+                    <p class="photo-sign">мобильные приложения</p>
+                </div>
+            </li>
+            <li class="item">
+                <div class="thumb-whatwedo"><img src="./IMG/img.png" alt="айпад">
+                    <p class="photo-sign">дизайнерские решения</p>
+                </div>
+            </li>
         </ul>
         </div>
         </section>
@@ -235,11 +247,17 @@
         </div>
         </div>
     </footer>
-
-
     <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button type="button" class="modal-btn" data-modal-close>X</button>
+        <button type="button" class="button-modal"  data-modal-close>
+          <a href="" class="btn">
+              <svg  width="30" height="30">
+                    <use href="./IMG/symbol-defs.svg#icon-close-black-18dp">
+
+                    </use>
+                    </svg>
+                </a>
+                </button>
     </div>
 </div>
 <script src="./js/modal.js"></script>
