@@ -365,24 +365,28 @@ font-family: inherit;
 .icon-antenna::before {
     background-repeat: no-repeat;
     background-position: center;
+    width: 270px;
     background-image: url(../IMG/antenna.svg);
 }
 
 .icon-clock::before {
     background-repeat: no-repeat;
     background-position: center;
+    width: 270px;
     background-image: url(../IMG/clock.svg);
 }
 
 .icon-diagramma::before {
     background-repeat: no-repeat;
     background-position: center;
+    width: 270px;
     background-image: url(../IMG/vector.svg);
 }
 
 .icon-austronaut::before {
     background-repeat: no-repeat;
     background-position: center;
+    width: 270px;
     background-image: url(../IMG/astronaut.svg);
 }
 
@@ -402,6 +406,7 @@ text-transform: uppercase;
 }
 
 .solutions-text {
+    font-weight: 400;
     font-size: 14px;
 line-height: 1.71;
     color: var(--paragraphtextcolor);
