@@ -593,12 +593,11 @@ display: flex;
     justify-content: center;
     border:1px solid #AFB1B8; 
     border-radius:4px;
-    transition: border-color 250ms var(--timingfunction);
+    transition: border-color 2500ms var(--timingfunction);
 }
 
 .clients-icons {
     fill: #AFB1B8;
-transition: fill 250ms var(--timingfunction);
 
 }
 
@@ -609,8 +608,8 @@ transition: fill 250ms var(--timingfunction);
 }
 
 
-.clients-link:hover .clients-icons, 
-.clients-link:focus .clients-icons{ 
+.clients-link:hover > .clients-icons, 
+.clients-link:focus > .clients-icons{ 
     fill: var(--accent);
     
     
@@ -997,7 +996,6 @@ display: flex;
 
 .modal {
     position: absolute;
-    top: 21.6%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
